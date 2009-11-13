@@ -83,7 +83,7 @@ en-AU:
         format: "%n %u"
         units:
           byte:
-            one: "Byte"
+            one:   "Byte"
             other: "Bytes"
           kb: "KB"
           mb: "MB"
@@ -95,40 +95,40 @@ en-AU:
     distance_in_words:
       half_a_minute: "half a minute"
       less_than_x_seconds:
-        one: "less than 1 second"
+        one:   "less than 1 second"
         other: "less than {{count}} seconds"
       x_seconds:
-        one: "1 second"
+        one:   "1 second"
         other: "{{count}} seconds"
       less_than_x_minutes:
-        one: "less than a minute"
+        one:   "less than a minute"
         other: "less than {{count}} minutes"
       x_minutes:
-        one: "1 minute"
+        one:   "1 minute"
         other: "{{count}} minutes"
       about_x_hours:
-        one: "about 1 hour"
+        one:   "about 1 hour"
         other: "about {{count}} hours"
       x_days:
-        one: "1 day"
+        one:   "1 day"
         other: "{{count}} days"
       about_x_months:
-        one: "about 1 month"
+        one:   "about 1 month"
         other: "about {{count}} months"
       x_months:
-        one: "1 month"
+        one:   "1 month"
         other: "{{count}} months"
       about_x_years:
-        one: "about 1 year"
+        one:   "about 1 year"
         other: "about {{count}} years"
       over_x_years:
-        one: "over 1 year"
+        one:   "over 1 year"
         other: "over {{count}} years"
     prompts:
-      year: "Year"
-      month: "Month"
-      day: "Day"
-      hour: "Hour"
+      year:   "Year"
+      month:  "Month"
+      day:    "Day"
+      hour:   "Hour"
       minute: "Minute"
       second: "Seconds"
 
@@ -136,8 +136,8 @@ en-AU:
     errors:
       template:
         header:
-          one: "1 error prohibited this {{model}} from being saved"
-          other: "{{count}} errors prohibited this {{model}} from being saved"
+          one:    "1 error prohibited this {{model}} from being saved"
+          other:  "{{count}} errors prohibited this {{model}} from being saved"
         # The variable :count is also available
         body: "There were problems with the following fields:"
 
@@ -170,12 +170,12 @@ en-AU:
       # The values :model, :attribute and :value are always available for interpolation.
       #
       # For example,
-      # models:
-      # user:
-      # blank: "This is a custom blank message for {{model}}: {{attribute}}"
-      # attributes:
-      # login:
-      # blank: "This is a custom blank message for User login"
+      #   models:
+      #     user:
+      #       blank: "This is a custom blank message for {{model}}: {{attribute}}"
+      #       attributes:
+      #         login:
+      #           blank: "This is a custom blank message for User login"
       # Will define custom blank validation message for User model and
       # custom blank validation message for login attribute of User model.
       #models:
@@ -183,14 +183,14 @@ en-AU:
     # Translate model names. Used in Model.human_name().
     #models:
       # For example,
-      # user: "Dude"
+      #   user: "Dude"
       # will translate User model name to "Dude"
 
     # Translate model attribute names. Used in Model.human_attribute_name(attribute).
     #attributes:
       # For example,
-      # user:
-      # login: "Handle"
+      #   user:
+      #     login: "Handle"
       # will translate User attribute "login" as "Handle"
 
 
