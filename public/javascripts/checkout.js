@@ -228,7 +228,7 @@ var submit_shipping = function() {
   // Save what we have so far and get the list of shipping methods via AJAX
   $.ajax({
     type: "POST",
-    url: '../checkout',                                 
+    url: '../checkout',
     beforeSend : function (xhr) {
       xhr.setRequestHeader('Accept-Encoding', 'identity');
     },
