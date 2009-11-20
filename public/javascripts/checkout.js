@@ -234,7 +234,7 @@ var submit_shipping = function() {
     },
     dataType: "json",
     data: $('#checkout_form').serialize(),
-    success: function(json) {  
+    success: function(json) {
       update_shipping_methods(json.available_methods);            
       update_confirmation(json);      
     },
