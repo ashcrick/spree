@@ -24,7 +24,7 @@ class Admin::TaxonsController < Admin::BaseController
     end
     @available_taxons.delete_if { |taxon| @product.taxons.include?(taxon) }
     respond_to do |format|
-      format.html
+      format.html { render :layout => false}
       format.js {render :layout => false}
     end
 
