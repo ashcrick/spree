@@ -413,7 +413,7 @@ en-AU:
   new_variant: "New Variant"
   new_zone: "New Zone"
   next: Next
-  no_items_in_cart: ""
+  no_items_in_cart: "Basket is empty."
   no_match_found: "No Match Found"
   no_products_found: "No products found"
   no_user_found: "No user was found with that email address"
